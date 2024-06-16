@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>ProTeacher</title>
+
+        <link rel="stylesheet" href="styles/pro-teacher_.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="js/pro-teacher.js"></script>
+    </head>
+
+    <body>
+        <header id="myHeader">
+            <img src="image/logo.png" alt="logo" id="logo">
+
+            <nav>
+                <a href="pro-teacher.html"><span>Home</span></a>
+                <a href="Newcourse.html"><span>Course</span></a>
+                <a href="aboutus.html"><span>About Us</span></a>
+                <a href="contact.php"><span>Contact</span></a>
+            </nav>
+
+            <div class="login-btns">
+                <a href="trainer.html"><input type="button" value="Teach on Pro -Teacher" class="btn-group"></a>
+                <a href="pro-teacher.html"><input type="button" value="Logout" class="btn-group"></a>
+                <a href="profile.php"><img src="image/profile.jpeg" alt="profile" id="profile" width="35px" height="35px"></a>
+            </div>
+
+        </header>  
+
+        <div class="home-container">
+            <div class="home-banner">
+                <h1 class="home-text">Learn How to Teach</h1>
+                <div class="home-container1">
+                <a href="login.php"><button class="home-button button">Get Started</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="why">
+            <h2>Why Pro-Teacher ?</h2>
+            <p>"Pro-Teacher" is a web application designed to aid in the training and professional growth of teachers in an online setting.
+                We train teachers as professionals in teaching regardless of their location or schedule.<br><br> 
+                We help you to enhance your teaching skills and learn new teaching techniques and allow you to enrol on courses for fair prices and contact the instructors directly to solve your problems. 
+                You are guided by experienced mentors throughout the course. </p>
+        </div>
+
+        <div class="img1">
+            <div class="rect"></div>
+            <img src="image/why.jpeg" alt="teacher image" id="img1">
+        </div>
+
+        <div class="instructors">
+            <h2>Instructors</h2>
+            <div class="ins1">
+                <img src="image/instructor1.jpeg" alt="Ms.Riley" id="ins1"><br>
+                Ms.Riley
+            </div>
+            <div class="ins2">
+                <img src="image/instructor2.jpeg" alt="Dr. Han" id="ins2"><br>
+                Dr. Han
+            </div>
+            <div class="ins2">
+                <img src="image/instructor3.jpeg" alt="Prof. Anderson" id="ins3"><br>
+                Prof. Anderson<br><br>
+            </div>
+            <div class="ins2">
+                <img src="image/instructor4.jpeg" alt="Prof. Jessica" id="ins4"><br>
+                Prof. Jessica
+            </div>
+            <div class="ins2">
+                <img src="image/instructor5.jpeg" alt="Mr. Garvey" id="ins5"><br>
+                Mr. Garvey
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="feedback">
+            <div class="f1">
+                <hr class="fdb">
+                <div class="photo">
+                    <img src="image/fimg1.jpeg" alt="Jhonson" id="fimg1">
+                </div>
+
+                <div class="text">
+                    <i>"I can't believe I've been teaching for almost 11 years and just recently discovered Pro-Teacher! 
+                    Boy have I been missing out! This site is a teacher's paradise! 
+                    Not only do they have over 20,000 worksheets available for download...check out every thing else they offer!..."</i><br><br>
+                    ~ Jhonson (Feb 12th)
+                </div>
+            </div>
+
+            <div class="f2">
+                <div class="text">
+                    <i>"I am just writing in to let your team know that you are doing such an awesome job! 
+                    Keep up the great content and I will encourage my colleagues to sign up for your website."</i><br><br>
+                    ~ Clara (May 27th)
+                </div>
+
+                <div class="photo">
+                    <img src="image/fimg2.jpeg" alt="Clara" id="fimg2"><br>
+                </div>
+                <hr class="fdb">
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <div class="icons">
+                <img src="image/telephone.jpeg" alt="tele" id="tele"><br>
+                <img src="image/mail.jpeg" alt="mail" id="mail"><br>
+                <img src="image/website.jpeg" alt="web" id="web"><br>
+            </div>
+
+            <div class="contacts">
+                <h3>Contacts</h3>
+                +94 67 543 9870<br>
+                proteacher@gmail.com<br>
+                support.proteacher.lk<br>
+            </div>
+
+            <div class="links">
+                <h3>Quick Links</h3>
+                <a href="login.php" class="quick">Get Started</a><br>
+                <hr>
+                <a href="pro-teacher.html" class="quick">Home</a><br>
+                <hr>
+                <a href="contact.php" class="quick">Contact Us</a>
+            </div>
+
+            <div>
+                <h3 class="social">Stay connected</h3>
+                <a href="https://www.facebook.com/login/"><img src="image/facebook.jpeg" alt="facebook" id="facebook"></a>
+                <a href="https://www.instagram.com"><img src="image/instagram.jpeg" alt="instagram" id="instagram"></a>
+                <a href="https://www.whatsapp.com/"><img src="image/whatsapp.jpeg" alt="whatsapp" id="whatsapp"></a>
+            </div>
+
+            <div class="proteacher">
+                <img src="image/logo.png" alt="logo" id="logo">
+            </div>
+        </footer>
+    </body>
+</html>

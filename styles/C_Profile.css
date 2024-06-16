@@ -1,0 +1,279 @@
+body {
+    margin: 0%;
+}
+header {
+    border-bottom: 1px solid #001F57;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;;
+    background-color: #001F57;
+    color: white;
+}
+
+#logo {
+    left: 20px;
+    width: 170px;
+    height: 50px;
+    
+    
+}
+
+.login-btns {
+    top: 15px;
+    right: 60px;
+    position: absolute;
+} 
+
+.btn-group {
+    margin: 7px;
+    padding: 2px;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 3px;
+    background-color: #001F57;
+    color: white;
+}
+
+.btn-group:hover {
+    font-weight: bold;
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    left: 30%;
+    color: white;
+}
+
+span:hover {
+    border-bottom: 1px solid white;
+}
+
+span {
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:active {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    margin: 0%;
+    margin-bottom: 0%;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(235, 231, 231);
+    width: 100%;
+    height: 160px;
+}
+
+.contacts {
+    
+    padding: -5px;
+    position: absolute;
+    bottom: 35px;
+    left: 30%;
+}
+
+.links {
+    padding: 28px;
+    position: absolute;
+    bottom: -10px;
+    left: 55%;
+}
+
+.social {
+    padding: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 80%;
+}
+
+.proteacher {
+    position: absolute;
+    left: 15px;
+    bottom: 50px;
+}
+
+#facebook {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 80%;
+}
+
+#instagram {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 83%;
+}
+
+#whatsapp {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 86%;
+}
+
+#tele {
+    width: 20px;
+    height: 20px;
+}
+
+#mail {
+    width: 20px;
+    height: 20px;
+}
+
+#web {
+    width: 20px;
+    height: 20px;
+}
+
+.icons {
+    position: absolute;
+    bottom: 35px;
+    left: 28%;
+}
+
+#links hr {
+    width: 20px;
+    background-color: white;
+}
+
+.links a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    font-weight: bold;
+}
+--pf--
+body{
+
+    
+    color: rgb(234, 241, 241);
+}
+section{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+
+}
+.home{
+
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    padding: 0,0;
+    background: url("../image/cppp.jpg") no-repeat;
+    background-size:cover;
+    background-position:center ;  
+    margin: 0%; 
+    
+}
+ .home-concept{
+
+    max-width: 600px;;
+ } 
+ .home-concept h1{
+
+
+    font-size: 70px;
+    font-weight: 700;
+    color: black;
+    margin-left: 20px;
+ }
+ .home-concept h2{
+
+    font-size: 40px;
+    font-weight: 700;
+    color: aqua;
+    margin-left: 20px;
+ }
+ .home-concept p{
+
+    font-size: 20px;
+    margin: 20px,0,40px;
+    color: aliceblue;
+    margin-left: 20px;
+ }
+ .home-concept .button-box{
+
+    width: 345px;
+    height: 50px;
+    background: transparent;
+ }
+ .button-box a{
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: black;
+    border-radius: 10%;
+    font-size: 19px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin-left: 20px;
+    
+
+ }
+ .button-box a:nth-child(1){
+    background: transparent;
+    color: rgb(238, 243, 243);
+ }
+ .button-box a::before{
+
+    content:'';
+    position: absolute;
+    top:0;
+    left: 0;
+    width:0;
+    height: 100%;
+    background: rgb(27, 12, 95);
+    z-index: -1;
+ }
+ .button-box a:hover::before{
+
+    width: 100%;
+ }

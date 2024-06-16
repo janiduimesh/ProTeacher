@@ -1,0 +1,276 @@
+body {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+header {
+    border-bottom: 1px solid #001F57;
+    z-index: 1;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;;
+    background-color: #001F57;
+    color: white;
+    width: auto;
+}
+
+.content {
+    padding: 50px;
+  }
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+.sticky + .content {
+    padding-top: 200px;
+  }
+
+#logo {
+    left: 20px;
+    width: 170px;
+    height: 50px;
+}
+
+.login-btns {
+    top: 15px;
+    right: 60px;
+    position: absolute;
+} 
+
+.btn-group {
+    margin: 7px;
+    padding: 2px;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 3px;
+    background-color: #001F57;
+    color: white;
+}
+
+.btn-group:hover {
+    font-weight: bold;
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    left: 30%;
+    color: white;
+}
+
+span:hover {
+    border-bottom: 1px solid white;
+}
+
+span {
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.instructor .text {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    text-align: center;
+    width: 50%;
+} 
+
+#startbtn {
+    width: 150px;
+    height: 25px;
+    font-weight: bolder;
+    border-radius: 4px;
+}
+
+.instructor .img {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+#ibanner {
+    width: 450px;
+    height: 450px;
+}
+
+.instructor .text h1 {
+    font-size: 63px;
+}
+
+.instructor .text p {
+    font-size: 22px;
+}
+
+.instructor .text button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
+
+#ibanner {
+    width: 100%;
+}
+
+#reasons {
+    width: 100%;
+}
+
+.comment{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 100px;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 30PX;
+}
+
+.comment .text {
+    flex-direction: column;
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.comment .img {
+    flex-direction: column;
+    padding: 50px;
+}
+
+#i3 {
+    width: 250px;
+    height: 250px;
+}
+
+/*footer*/
+
+footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0%; 
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 160px;
+}
+
+.contacts {
+    padding: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 30%;
+}
+
+.links {
+    padding: 15px;
+    position: absolute;
+    bottom: 5px;
+    left: 55%;
+}
+
+.social {
+    padding: 15px;
+    position: absolute;
+    bottom: 50px;
+    left: 80%;
+}
+
+.proteacher {
+    position: absolute;
+    left: 15px;
+    bottom: 50px;
+}
+
+#facebook {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 80%;
+    max-width: 100%;
+}
+
+#instagram {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 83%;
+    max-width: 100%;
+}
+
+#whatsapp {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 86%;
+}
+
+#tele {
+    width: 20px;
+    height: 20px;
+}
+
+#mail {
+    width: 20px;
+    height: 20px;
+}
+
+#web {
+    width: 20px;
+    height: 20px;
+}
+
+.icons {
+    position: absolute;
+    bottom: 35px;
+    left: 28%;
+}
+
+#links hr {
+    width: 20px;
+    background-color: white;
+}
+
+.links a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    font-weight: bold;
+}

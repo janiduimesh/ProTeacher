@@ -1,0 +1,308 @@
+header {
+    border-bottom: 1px solid #001F57;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 35px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;;
+    background-color: #001F57;
+    color: white;
+}
+
+#logo {
+    left: 20px;
+    width: 170px;
+    height: 50px;
+    
+    
+}
+
+.login-btns {
+    top: 15px;
+    right: 60px;
+    position: absolute;
+	margin: 20px;
+} 
+
+.btn-group {
+    margin: 7px;
+    padding: 2px;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 3px;
+    background-color: #001F57;
+    color: white;
+}
+
+.btn-group:hover {
+    font-weight: bold;
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    left: 30%;
+    color: white;
+}
+
+span:hover {
+    border-bottom: 1px solid white;
+}
+
+span {
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:active {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -160px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(235, 231, 231);
+    width: 100%;
+    height: 160px;
+	margin-top: 15px;
+}
+
+.contacts {
+    
+    padding: -5px;
+    position: absolute;
+    bottom: 35px;
+    left: 30%;
+}
+
+.links {
+    padding: 28px;
+    position: absolute;
+    bottom: -10px;
+    left: 55%;
+}
+
+.social {
+    padding: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 80%;
+}
+
+.proteacher {
+    position: absolute;
+    left: 15px;
+    bottom: 50px;
+}
+
+#facebook {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 80%;
+}
+
+#instagram {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 83%;
+}
+
+#whatsapp {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 86%;
+}
+
+#tele {
+    width: 20px;
+    height: 20px;
+}
+
+#mail {
+    width: 20px;
+    height: 20px;
+}
+
+#web {
+    width: 20px;
+    height: 20px;
+}
+
+.icons {
+    position: absolute;
+    bottom: 35px;
+    left: 28%;
+}
+
+#links hr {
+    width: 20px;
+    background-color: white;
+}
+
+.links a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    font-weight: bold;
+}
+
+.p1
+{
+    font-weight: bolder;
+    position:absolute;
+	top: 40%;
+	left:10%;
+	font-size:50px ;
+	font-family:Arial;
+    color: #001F57;
+}
+
+.container1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('images/3813684.png');
+	background-size: cover;
+	margin-top: 150px;
+    margin-left: 15%;
+}
+
+.container2
+{
+	width: 100%;
+	max-width:650px;
+	background:#001F57 ;
+	padding: 28px;
+	margin: 0 28px;
+	border-radius: 10px;
+	box-shadow: inset -2px 2px 2px white;
+}
+.form-title
+{
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 6px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	border-bottom: solid 1px white;
+}
+.user-input-box:nth-child(2n)
+{
+	justify-content: end;
+}
+
+.user-input-box
+{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.user-input-box label
+{
+	width:95%;
+	color: white;
+	font-size: 20px;
+	font-weight:bold;
+	margin: 5px 0;
+}
+
+.user-input-box input 
+{
+	height: 40px;
+	width: 95%;
+	border-radius: 7px;
+	outline: none;
+	border: 1px solid grey;
+	padding: 0 10px;
+}
+
+.user-input-box textarea
+{
+	height: 40px;
+	width: 95%;
+	border-radius: 7px;
+	outline: none;
+	border: 1px solid grey;
+	padding: 0 10px;
+}
+
+.facebook {
+	/*background-color: #3B5998;*/
+	position: relative;
+	color: white;
+	top: 16px;
+	margin-left: 32%;
+    font-size: 20px;
+}
+
+.google {
+	margin-top: 2%;
+	/*background-color: #55ACEE;*/
+	position: absolute;
+	color: white;
+	margin-left: 14%;
+    font-size: 20px;
+    
+}
+
+.form-sumbit-btn
+{
+	margin-top: 40px;
+}
+
+.form-submit-btn input
+{
+	margin-left:60px;
+	display: block;
+	width: 80%;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	color: rgb(255, 255, 255);
+	background: rgba(172, 201, 255, 0.7);
+}
+
+.p2 {
+	margin-top: 10%;
+	margin-left: 25%;
+    font-size: 150%;
+    font-weight: bold;
+}
